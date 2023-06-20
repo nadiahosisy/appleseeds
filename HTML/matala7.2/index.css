@@ -1,0 +1,110 @@
+.card {
+  background-color: rgb(211, 205, 204);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+  scroll-padding-top: 30px;
+}
+.container {
+  display: inline-block;
+}
+.card-title,
+.card-text {
+  margin: 0;
+}
+.header-4 {
+  color: cornflowerblue;
+}
+.header-1 {
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  background-color: rgb(166, 202, 226);
+  float: left;
+}
+.image {
+  border-radius: 50%;
+}
+.fa-volleyball-ball,
+.fa-music {
+  font-size: 24px;
+  color: #8f2b2b;
+  margin: 10px;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  z-index: 999;
+  float: left;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #b92a2a;
+}
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.navbar-menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  color: #555;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.gradient-button {
+  background-image: linear-gradient(to right, #ff6b6b, #ffa69e);
+}
+.outline-button {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+.rounded-button {
+  border-radius: 20px;
+  background-color: #555;
+}
+
+.custom-button:hover {
+  opacity: 0.8;
+}

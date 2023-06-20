@@ -1,0 +1,76 @@
+.main-div{
+  width: calc(60% - 60px);
+  border :solid 1px black;
+  padding: 2px;
+  text-align: right;
+  width: 100%;
+ 
+  
+}
+.all-divs {
+  width: 29%;
+  height: 0%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.up-div {
+  padding: 10px;
+  background-color: #d67f1b;
+  border: 1px solid rgb(22, 21, 21);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tow-boxes {
+  overflow: hidden;
+  margin-top: 2px;
+  border: 1px solid black;
+}
+
+.left-div {
+  float: left;
+  width: 100px;
+  padding: 83px;
+  background-color: #24720c;
+  margin-right: 20px;
+
+  position: absolute;
+  border-right: 1px solid black;
+}
+
+.right-div {
+  float: right;
+  width: 300px;
+  padding: 83px;
+  background-color: #7a3bc2;
+  border-left: 1px solid black;
+  margin-top: 0%;
+  position: relative;
+  margin-right: 0;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+
+.down-div {
+  clear: both;
+  padding: 10px;
+  margin-top: 10%;
+  margin-block: 0%;
+  background-color: #5f61f8;
+  text-align: center;
+}
+.left-size {
+  text-align: left;
+  position: absolute;
+  top: 10px;
+  left:3%;
+}
+.right-size {
+  text-align: right;
+  top: 10px;
+  right:3%;
+  position: absolute;
+}

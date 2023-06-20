@@ -1,0 +1,42 @@
+.card {
+  background-color: rgb(233, 227, 218);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+  scroll-padding-top: 30px;
+}
+.container {
+  display: inline-block;
+}
+.card-title,
+.card-text {
+  margin: 0;
+}
+.header-4{
+    color: cornflowerblue;
+}
+.header-1{
+    font-family:  'Roboto', sans-serif;
+}
+.main{
+  background-color: rgb(166, 202, 226);
+  float: left;
+}
+.image{
+  border-radius: 50%;
+}
+.fa-volleyball-ball, .fa-music {
+  font-size: 24px;
+  color: #777;
+  margin: 10px;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}

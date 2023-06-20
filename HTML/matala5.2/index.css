@@ -1,0 +1,15 @@
+.card {
+  background-color: rgb(233, 227, 218);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+  scroll-padding-top: 30px;
+}
+.container {
+  display: inline-block;
+}
+.card-title,
+.card-text {
+  margin: 0;
+}

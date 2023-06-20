@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box</title>
+  </head>
+  <body>
+    <body>
+      <p>
+        The problem with the code is that the parent container (#outer) does not
+        have a specified positioning property. When you set the child div
+        (#inner) to have an absolute position, it will be positioned relative to
+        its closest positioned ancestor. In this case, since the parent
+        container doesn't have a positioned property set, the child div's
+        position will be relative to the initial containing block (usually the
+        viewport). To fix the code using the positioning properties we've
+        learned, you can add a positioning property to the parent container
+        (#outer). By adding position: relative; to the parent container
+        (#outer), we establish it as the positioned ancestor for the child div
+        (#inner). Now, the child div will be positioned relative to the top left
+        corner of the parent container, with its top offset set to 10 pixels.
+        This will position the small box on top of the bigger box as intended.
+      </p>
+      <div id="outer">
+        <div id="inner"></div>
+      </div>
+    </body>
+  </body>
+</html>

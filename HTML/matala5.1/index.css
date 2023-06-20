@@ -1,0 +1,16 @@
+.div1{
+    border: solid 1px;
+    border-color: red;
+    border-radius: 8px;
+    font-size: large;
+}
+.div2{
+    font-weight: bold;
+    font-style: italic;
+}
+.div3{
+    background-color: black;
+    font-family: monospace;
+    color:   white;
+    box-shadow: 3px;
+}

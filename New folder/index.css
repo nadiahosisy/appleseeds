@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto; /* Center align the container */
+    max-width: 800px; /* Adjust the maximum width as per your requirement */
+    overflow: hidden; /* Clear floats */
+  }
+  
+  .box {
+    float: left;
+    width: calc(40.33% ); /* Adjust the width and spacing between boxes */
+    padding: 20spx;
+    margin: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+
+

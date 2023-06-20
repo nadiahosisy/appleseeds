@@ -1,0 +1,38 @@
+#inner {
+  width: 15px;
+  height: 5px;
+  background: lightgreen;
+  position: absolute;
+  top: 10px;
+}
+
+.title {
+  font-size: 15px;
+  text-align: left;
+}
+
+#inner {
+  width: 100px;
+  height: 2px;
+  background: lightgreen;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-100%);
+}
+#outer {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  margin: 50px;
+  position: 
+  ;
+}
+
+#inner {
+  width: 50px;
+  height: 50px;
+  background: lightgreen;
+  position: absolute;
+  top: 25px;
+}
