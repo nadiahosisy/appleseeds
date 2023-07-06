@@ -1,0 +1,167 @@
+@font-face {
+  font-family: GothamSSM;
+  src: url(fonts/UL_LI-font/GothamSSm-Book.otf);
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-data {
+  margin-top: 40px;
+}
+.body-data h1 {
+  color: white;
+  font-size: 40px;
+  font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin-bottom: 5px;
+}
+.body-data a {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: white;
+  font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  padding-left: 5px;
+  padding-top: 0;
+  margin-top: 0px;
+}
+
+.body-lower {
+  margin-top: 47vh;
+  margin-left: 3vw;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -33px;
+}
+.main-section p {
+    font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.svg {
+  margin: 9px;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin: 30px;
+  margin-top: 10px;
+  margin-left: 90px;
+
+  color: white;
+}
+
+.section-1{
+    margin-left: 120px;
+}
+
+.section-2, .section-3{
+    margin-left: 50px;
+}
+.section-2 {
+    margin-right: 5px;
+}
+.section-3{
+    margin-right: 100px;
+}
+.svg-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#ms1,
+#ms3,
+#ms5 {
+  font-size: 24px;
+  font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#ms2,
+#ms4,
+#ms6 {
+  margin-top: -10px;
+}
+.button-text {
+    font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-top: 25px;
+}
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+.right-button {
+  color: white;
+  padding: 4px 24px;
+  margin: 6px 50px;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(77, 143, 243, 255);
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 20px;
+  margin-right: 150px;
+  margin-top: 15px;
+}
+.left-button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 15px;
+  width: 250px;
+  margin: 6px 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 5px;
+  margin-left: 100px;
+  margin-top: 15px;;
+  font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.right-button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.right-button:hover::after {
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.left-button:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.button-text {
+  color: white;
+  margin-left: 75px;
+  margin-top: 40px;
+}
+.span1 {
+  font-size: 7px;
+  padding-bottom: 45px;
+  color: white;
+}
+.button-text a {
+  text-decoration: underline;
+}

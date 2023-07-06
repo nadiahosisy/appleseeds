@@ -1,0 +1,69 @@
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "red-box red-box red-box red-box"
+    "blue-box green-box green-box purple-box"
+    "blue-box green-box green-box purple-box"
+    "yellow-box yellow-box yellow-box yellow-box";
+  height: 97vh;
+  width: 97vw;
+}
+.red {
+  background-color: red;
+  grid-area: red-box;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.blue {
+  background-color: blue;
+  grid-area: blue-box;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.green {
+  background-color: green;
+  grid-area: green-box;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.purple {
+  background-color: purple;
+  grid-area: purple-box;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.yellow {
+  background-color: yellow;
+  grid-area: yellow-box;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+@media (max-width: 768px) {
+  /* Mobile */
+  .container {
+    grid-template-areas:
+      "red-box red-box red-box red-box"
+      "blue-box blue-box blue-box blue-box"
+      "green-box green-box green-box green-box"
+      "green-box green-box green-box green-box"
+      "purple-box purple-box purple-box purple-box"
+      "yellow-box yellow-box yellow-box yellow-box";
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet */
+  .container {
+    grid-template-areas:
+      "red-box red-box red-box red-box"
+      "blue-box green-box green-box green-box"
+      "blue-box green-box green-box green-box"
+      "purple-box purple-box purple-box purple-box"
+      "yellow-box yellow-box yellow-box yellow-box";
+  }
+}

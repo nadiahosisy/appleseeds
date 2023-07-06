@@ -1,0 +1,85 @@
+
+@font-face {
+  font-family: teslaFont;
+  src: url(fonts/tesla-font/TESLA.ttf);
+}
+@font-face {
+  font-family: GothamSSM;
+  src: url(fonts/UL_LI-font/GothamSSm-Book.otf);
+}
+
+.pic-div {
+  background: url(imges/Model-3-Main-Hero-Desktop-LHD.avif) no-repeat center
+    center;
+  height: 1000px;
+  margin: -8px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.center-menu li,
+.right-menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+li {
+  padding: 4px 8px;
+  margin: 0px, 8px;
+  font-size: 14px;
+  font-family: GothamSSM;
+  color: white;
+  font-weight: 600px;
+}
+a
+ {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: auto;
+}
+
+.left-tesla {
+  font-family: teslaFont;
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 30px;
+}
+
+hr{
+    height: 30px;
+    width: 14%;
+    margin : -27px 0;
+    background-color: rgb(143, 145, 145, 0.3);
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+}
+
+.Model-S:hover ~ hr  {
+  opacity: 5%;
+}
+
+
+.Model-3:hover ~ hr  {
+  margin-left: 13%;
+}
+.Model-X:hover ~ hr  {
+  margin-left: 26%;
+}
+.Model-Y:hover {
+    background-color: rgb(143, 145, 145, 0.3);
+}
+.solar-roof:hover {
+    background-color: rgb(143, 145, 145, 0.3);
+}
+.solar-panel:hover {
+    background-color: rgb(143, 145, 145, 0.3);
+}
+.power-wall:hover {
+    background-color: rgb(143, 145, 145, 0.3);
+}

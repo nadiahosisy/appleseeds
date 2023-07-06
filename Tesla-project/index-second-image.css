@@ -1,0 +1,78 @@
+.pic-div2 {
+  height: 100vh;
+  width: 100vw;
+  background: url(imges/model-3-hero-a-desktop.png) no-repeat center
+  center; 
+  background-position: 50% 60%;
+  background-size: 70% 100%;
+  margin-top: 8px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.main-safety-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: GothamSSM, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin-left: -150px;
+}
+
+.safety-title h2 {
+    font-size: 28px;
+}
+
+.safety-title a {
+  text-decoration: underline;
+}
+.safety-title p {
+  font-size: 14px;
+  color: #393c41;
+  opacity: 0.85;
+}
+
+.bottom-safety-div{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-safety-div p{
+    font-size: 14px;
+  color: #393c41;
+  opacity: 0.85;
+  margin-top:0px ;
+}
+.bottom-safety-div h5{
+    margin-bottom: 5px;
+}
+
+.left-bottom-safety, .right-bottom-safety{
+    width: 20vw;
+    height: 0vh;
+}
+
+.right-bottom-safety{
+    margin-left: 50px;
+}
+
+.safety-anim-1{
+    position: absolute;
+    height: 28%;
+    width: .3%;
+    background-color: black;
+    top: 24%;
+    left: 22%;
+    opacity: 1;
+    transition: 3s;
+}
+
+.safety-anim-1::after {
+    content: "Impact";
+    position: absolute;
+    width: 10vw;
+    z-index: 10;
+    top: -2%;
+    left: 350%;
+}

@@ -1,0 +1,12 @@
+a::after {
+  content: " " attr(href);
+  color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: inline;
+}

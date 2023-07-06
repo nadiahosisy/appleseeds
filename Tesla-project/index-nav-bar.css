@@ -1,0 +1,130 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@font-face {
+  font-family: teslaFont;
+  src: url(fonts/tesla-font/TESLA.ttf);
+}
+@font-face {
+  font-family: GothamSSM;
+  src: url(fonts/UL_LI-font/GothamSSm-Book.otf);
+}
+
+.fixed-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9999; /* Adjust the z-index value as needed */
+  top: 1;
+  left: 0;
+  width: 100%;
+  background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
+  border-radius: 2px;
+  font-family: GothamSSM;
+  color: white;
+  align-items: center;
+  background-color: aqua;
+}
+
+.fixed-div span
+{
+  font-size: 17px;
+  font-weight: 600;
+}
+.fixed-div p {
+  font-size: 14px;
+  margin-right: 100px;
+}
+.fixed-div a {
+    text-decoration: underline;
+}
+
+
+
+.pic-div {
+  background: url(imges/Model-3-Main-Hero-Desktop-LHD_big.avif) no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  margin: -8px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.center-menu li,
+.right-menu li {
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+li {
+  padding: 4px 8px;
+  margin: 0px, 8px;
+  font-size: 14px;
+  font-family: GothamSSM;
+  color: white;
+  font-weight: lighter;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px;
+}
+
+.left-tesla {
+  font-family: teslaFont;
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 30px;
+}
+
+.Model-S:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+
+.Model-3:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.Model-X:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.Model-Y:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.solar-roof:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.solar-panels:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.powerwall:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.Shop:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.Account:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
+.Menu:hover {
+  background-color: rgb(143, 145, 145, 0.3);
+}
